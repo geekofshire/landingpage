@@ -1,0 +1,32 @@
+body{
+    display: flex;
+    flex:1;
+}
+.top{
+    background: #1F2937;
+    color: white;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+a{
+    color:white;
+    font-size: 30px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    flex:1;
+    margin: 20px;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    gap:20px;
+}
+.top-container{
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+}
