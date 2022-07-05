@@ -1,8 +1,5 @@
 @import url('href="//fonts.googleapis.com/css?family=Arvo');
-body{
-    display: flex;
-    flex:1;
-}
+/* top code snippet */
 .top{
     background: #1F2937;
     color: white;
@@ -31,4 +28,30 @@ ul{
     display: flex;
     justify-content: space-around;
     margin: 25px;
+}
+/*top middle*/
+.middle-header{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.mainfourimages{
+    display: flex;
+    justify-content:center ;
+    gap:52px;
+    margin:30px;
+}
+img{
+    width: 150px;
+    height: 150px;
+}
+.fourimages{
+    max-width: 200px;
+    margin:25px;
+    font-weight: bold;
+    font-size: 18px;
 }
