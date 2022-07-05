@@ -1,4 +1,7 @@
 @import url('href="//fonts.googleapis.com/css?family=Arvo');
+*{
+    font-family: Arvo;
+}
 /* top code snippet */
 .top{
     background: #1F2937;
@@ -55,3 +58,19 @@ img{
     font-weight: bold;
     font-size: 18px;
 }
+/* bottom-middle */
+.bottom-middle{
+    background: #e5e7eb;
+    display:flex;
+    width:100%;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap:wrap;
+}
+.quote{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/*bottom part*/
