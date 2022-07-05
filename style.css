@@ -1,3 +1,4 @@
+@import url('href="//fonts.googleapis.com/css?family=Arvo');
 body{
     display: flex;
     flex:1;
@@ -18,7 +19,8 @@ a{
     display: flex;
     justify-content: space-around;
     flex:1;
-    margin: 20px;
+    margin: px;
+    font-family: Arvo;
 }
 ul{
     display:flex;
